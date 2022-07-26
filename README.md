@@ -4,8 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # External api
 
-App was created using external (api)[mockapi.io]
-To recreate schema click (here)[https://mockapi.io/clone/62d98afd9eedb699635eb4d5]
+App was created using external [api](mockapi.io)
+To recreate schema click [here](https://mockapi.io/clone/62d98afd9eedb699635eb4d5)
 
 ## Available Scripts
 
