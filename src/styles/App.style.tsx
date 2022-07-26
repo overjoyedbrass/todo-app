@@ -6,29 +6,26 @@ import { CheckboxChecked } from '@styled-icons/boxicons-regular'
 import Button from '@mui/material/Button'
 import { Search } from '@styled-icons/boxicons-regular/Search'
 
-interface SearchIconProps {
-    value: string
-}
 
-const zdielane = `
-    top: 0.20em;
-    right: 1.5em;
+
+const iconStyle = `
     color: gray;
     cursor: pointer;
 `
 
+interface SearchIconProps {
+    value: string
+}
 export const SearchIcon = styled(Search)<SearchIconProps>`
-    ${zdielane};
+    ${iconStyle};
     position: absolute;
     width: 1.25em;
     height: 1.25em;
     top: 0.25em;
     right: 0.25em;
-    color: gray;
     width: 1.5em;
     height: 1.5em;
     position: absolute;
-    cursor: pointer;
 `
 
 export const TitleSpan = styled('span')`
@@ -47,34 +44,34 @@ export const ControlBar = styled('div')`
     flex: 1 1;
 `
 export const SmallDeleteIcon = styled(Delete)`
+    ${iconStyle};
     position: absolute;
     width: 1.3em;
     height: 1.3em;
     top: 0.20em;
     right: 1.5em;
-    color: gray;
-    cursor: pointer;
 `
 export const DeleteIcon = styled(Delete)`
+    ${iconStyle};
     width: 1.5em;
     height: 1.5em;
     position: absolute;
     top: 0.25em;
     right: 0.25em;
     color: #EE0000;
-    cursor: pointer;
 `
 export const CheckIcon = styled(Checkbox)`
+    ${iconStyle};
     width: 1.5em;
     height: 1.5em;
     position: absolute;
     bottom: 0.25em;
     right: 0.25em;
     color: black;
-    cursor: pointer;
 `
 
 export const CheckedIcon = styled(CheckboxChecked)`
+    ${iconStyle};
     width: 1.5em;
     height: 1.5em;
     position: absolute;

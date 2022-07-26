@@ -10,9 +10,7 @@ type initialState = {
 export const CreateList = () => {
     const [formState, setFormState] = React.useState<initialState>({name: ""})
 
-    const handleChange = (event: any) => {
-        const name = event.target.name
-        const value = event.target.value
+    const handleChange = ({event: {name, value}}: any) => {
         setFormState((prev) => ({ ...prev, [name]: value }))
     }
 

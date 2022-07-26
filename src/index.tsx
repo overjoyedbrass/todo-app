@@ -15,5 +15,3 @@ root.render(
         </React.StrictMode>
     </Provider>
 );
-
-// 14 hodin
