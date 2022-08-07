@@ -20,7 +20,7 @@ type AddItemProps = {
 export const AddItem = ({listId, onClose}: AddItemProps) => {
     const [formState, setFormState] = React.useState(initialState)
     
-    const handleChange = ({event: {name, value}} : any) => {
+    const handleChange = ({target: {name, value}} : any) => {
         setFormState((prev) => ({ ...prev, [name]: value }))
     }
 
